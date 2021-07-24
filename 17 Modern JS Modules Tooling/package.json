@@ -1,0 +1,18 @@
+{
+    "name": "17-modern-js-modules-tooling",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html --dist-dir ./dist/output"
+    },
+    "author": "Gregory Kaframanis",
+    "license": "ISC",
+    "dependencies": {
+        "leaflet": "^1.7.1",
+        "lodash-es": "^4.17.21"
+    },
+    "devDependencies": {
+        "parcel": "^2.0.0-beta.2"
+    }
+}
